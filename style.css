@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3b3636;
+}
+a {
+    color: #df1010;
+    text-decoration: 200;
+    
+}
+
+p {
+    color: #fff;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #ec3434;
+}
+
+
+.mapa{
+    float: right;
+    width: 300px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.mapa:hover {
+    transform: scale(1.05);
+}
+
+.logo{
+    width: 350px;   
+    height: auto;   
+}
+
+.logo-container{
+    text-align: center;
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color : #fff;
+}
+
+.conteudo {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+main {
+    flex: 3;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background:
+        linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+        url("imagemdefundo.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
