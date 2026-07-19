@@ -72,3 +72,32 @@ body {
     background-attachment: fixed;
 }
 
+    .dragao {
+        float: right;
+        width: 500px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        transition: transform 0.3s ease;
+    }
+ 
+    .dragao:hover {
+        transform: scale(1.05); 
+}
+hr {
+    border: 1px solid #ec3434;
+    margin: 20px 0;
+}
+    .faccoes {
+        float: center;
+        width: 300px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        transition: transform 0.3s ease;
+    }
+    .faccoes:hover {
+        transform: scale(1.05);
+
+    }
+    
+
+
