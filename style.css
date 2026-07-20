@@ -22,10 +22,14 @@ h1, h2 {
 
 .mapa{
     float: right;
-    width: 300px;
+    width: 500px;
     margin-left: 15px;
     margin-bottom: 15px;
     transition: transform 0.3s ease;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+
 }
 
 .mapa:hover {
@@ -78,6 +82,9 @@ body {
         margin-left: 15px;
         margin-bottom: 15px;
         transition: transform 0.3s ease;
+        border: 3px solid #000000;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.7);
     }
  
     .dragao:hover {
@@ -93,11 +100,44 @@ hr {
         margin-left: 15px;
         margin-bottom: 15px;
         transition: transform 0.3s ease;
-    }
+        border: 3px solid #000000;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+    
     .faccoes:hover {
         transform: scale(1.05);
 
     }
     
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    th, td {
+        border: 1px solid #000000;
+        padding: 10px;
+        text-align: left;
+    }
+    tr {
+        background-color: 444444;
+    }
+
+   .mapa {    
+        width: 300px;
+        height: auto;
+        margin-bottom: 15px;
+        transition: transform 0.3s ease;
+        border: 3px solid #000000;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    }
+    
+    .imagem:hover {
+        transform: scale(1.05);
+
+   }
 
 
